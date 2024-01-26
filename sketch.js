@@ -3,7 +3,7 @@ let colors = [];
 let config = {
   dateCategories: {
   mainActivity: ["Listen to Coldplay", "Talk about your dream careers", "Watch TED Talks", "Have a virtual spa day together by applying facemasks", "Practice learning a new language together", "Listen to an audiobook", "Discuss a book", "Create a shared playlist and have a virtual dance party",
-"Host a virtual trivia night on your favourite topic", "Window shop online", "Plan your next trip together", "Sing together on virtual karaoke", "Create a digital scrapbook of your favorite memories together", "Learn a dance routine together", "Learn origami virtually", "Create a pinterest board for home decor", "Explore and read poetry together online", "Play a digital card game", "Take an online personality test together and discuss the results", "Explore videos on DIY home improvement"],
+"Host a virtual trivia night on your favorite topic", "Window shop online", "Plan your next trip together", "Sing together on virtual karaoke", "Create a digital scrapbook of your favorite memories together", "Learn a dance routine together", "Learn origami virtually", "Create a pinterest board for home decor", "Explore and read poetry together online", "Play a digital card game", "Take an online personality test together and discuss the results", "Explore videos on DIY home improvement"],
   chores: ["while doing laundry", "while cooking food", "while cleaning furniture", "while organizing your room", "while exercising", "while sorting mail", "while changing bed linens", "while wiping countertops", "while cleaning windows", "while taking out the trash", "while washing dishes", "while ironing clothes", "while setting the table", "while cleaning the bathroom", "while disinfecting surfaces", "while organizing your closet", "while cleaning kitchen appliances", "while cleaning and reorganizing the fridge", "while watering the plants", "while filling water bottles", "while recycling trash", "while mopping floors", "while tidying your room", "while creating a grocery shopping list", "while disposing of expired items"],
   timing: ["on Friday evening", "on Saturday morning", "on Saturday afternoon", "on Saturday evening", "on Sunday morning", "on Sunday afternoon", "on Sunday evening"],
 },
@@ -25,7 +25,7 @@ colors: {
 let generatedDate = "";
 
 function setup() {
-  createCanvas(800,600);
+  createCanvas(1280,832);
   
   // Convert color strings to p5.js color objects
   for (let key in config.colors) {
